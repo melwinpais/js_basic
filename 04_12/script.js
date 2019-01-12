@@ -9,3 +9,18 @@ function doSomeMath() {
 var theResult = doSomeMath();
 
 console.log("The result: ", theResult);
+
+
+function sum() {
+	var a = 3, b = 4;
+	function sumFunc() {
+		var sum = a + b;
+		console.log(a + " + " + b + " = " + sum);
+		return sum;
+	};
+	return sumFunc;
+}
+
+var result = sum();
+console.log(result);
+console.log(result());

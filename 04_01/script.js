@@ -19,3 +19,20 @@ divided();
     var result = 12 / 0.75;
     console.log("12 divided by 0.75 is ", result);
 }())
+
+function mult() {
+  var a = 3, b=6.5;
+  console.log( a + " x " + b + " = " + (a * b))
+}
+mult();
+
+var mul = function() {
+  var a = 3.2, b = 6.58;
+  console.log( a + " x " + b + " = " + (a * b))
+}
+mul();
+
+(function() {
+  var a = 23, b = 23.5;
+  console.log( a + " x " + b + " = " + (a * b))
+})();
